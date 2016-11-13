@@ -1,40 +1,151 @@
-<!doctype html>
-<html class="no-js" lang="en-us">
-
-<head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
     <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Vote Nyc</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>NYC Votes</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
 
-    <link rel="stylesheet" href="css/normalized-reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/vendor/modernizr2.8.3.min.js"></script>
-</head>
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
+    <link href="white.css" rel="stylesheet">
 
-<body>
-    <h1> Home page</h1>
-
-
-
-
-
-   
-   
-    <!-- Make sure your content is done before this -->
-
-    <!-- Load CDN version of jQuery. For other versions visit this page: https://code.jquery.com/jquery/ -->
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-        <!--    Load Local version if CDN is not working-->
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.1.1.min.js"><\/script>')</script>
     
-    <!--   Your jQuery and other JavaScript can go here in this script element. -->
-    <script>
-        jQuery(document).ready(function ($) {
-            // Your jQuery code here, using $ to refer to jQuery.
-        });
-    </script>
-</body>
+    <style> 
 
+    
+.white * { 
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.blue * {
+  padding: 15px;
+}
+
+ .white {background-color: white;
+    color:#00004d;
+    font-family: arial;
+    text-align: center;
+    }
+
+
+.blue {
+    border: 5px solid white;
+    color: white;
+    text-align: center;
+    font-family: arial;}
+
+  #logo {text-align:center;
+    margin-top: 15px;
+          margin-bottom: 5px;
+          }
+
+  footer {
+    text-align: center;
+    padding: 10px;
+    color: #00004d;
+  }
+
+  h2 {
+    text-align: center;
+    color: #00004d;
+  }
+  
+  h1 {
+    color: #00004d;
+  }
+    </style>
+  
+  
+
+  </head>
+
+  <body>
+<div id="logo">
+   <img src="images/logo2.png" alt="logo" width="45%"/>
+</div>
+    <div class="container">
+      <div class="header clearfix">
+        
+
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsemenu"> 
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>    
+      </button>
+      <a href="index.html" class="navbar-brand">NYC VOTES</a>
+    </div>
+    <div class="collapse navbar-collapse" id="collapsemenu">
+    <ul class="nav navbar-nav">
+      <li><a href="#">HOME</a></li>
+      <li><a href="Register.html">REGISTER</a></li>
+      <li><a href="Candidates.html">CANDIDATES</a></li>
+      <li><a href="Election-Day.html">ELECTION-DAY</a></li>
+       <li><a href="Events.html">EVENTS</a></li>
+        <li><a href="resources.html">RESOURCES</a></li>
+
+        </ul>
+      </li>
+
+
+    </ul>
+    </div>
+  </div><!--close container for navbar-->
+</nav>
+
+
+
+
+
+
+      
+      </div>
+
+      <div class="jumbotron">
+       <h1>Home</h1>
+   <div class="blue">     <h2>Explore the world of voting today!</h2></div>
+      </div>
+<div class="blue">
+      <a href="Register.html"><img src="images/Register.png" alt="image of Register" width="70%"/></a>
+   </div>
+  <div class="blue">
+       <a href="Candidates.html"><img src="images/Candidates.png" alt="image of Candidates" width="70%"/></a>
+ </div>
+ <div class="blue">
+        <a href="Events.html"><img src="images/Events.png" alt="image of Events" width="70%"/></a>
+</div>
+<div class="blue">
+        <a href="Election-Day.html"><img src="images/Election.png" alt="image of Election" width="70%"/></a>
+</div>
+<div class="blue">
+        <a href="resources.html"><img src="images/Resources.png" alt="image of Resources" width="70%"/></a>
+</div>
+
+
+      
+        </div>
+      </div>
+   <footer class="footer">
+        <p>&copy; 2016 Company, Inc.</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+
+   <script type="text/javascript" src="bootstrap.min.js"></script>
+  </body>
 </html>
