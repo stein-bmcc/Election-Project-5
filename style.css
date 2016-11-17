@@ -74,10 +74,104 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+}
+
+/* ====================== Prof Stein ================================ */
+
+/* RESPONSIVE PREPARATION 
+   ==================================================================== 
+   Use these "as is"
+*/
+
+/*The following 7 lines are from Paul Irish and apply a border-box model. 
+See this page for more info: http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Basic Responsive Images and Video */
+img,video{
+  width: auto; 
+  height: auto;
+  max-width: 100%; 
+}
+
+.image-link{
+    width: 70%;
+    margin: 0 auto;
+    border: 5px solid white;
+    color: white;
+    text-align: center;
+    font-family: arial;    
+}
+
+.image-link img{
+/*    width: 70%;*/
+}
+
+/* --------- candidates page ---------------------- */
+.candidate{
+    margin-bottom: 2em;
+}
+
+/* --------- pasted white styles ---------------------- */
+.white {background-color: white;
+    border: 20px solid #800000;
+    color:#00004d;
+    font-family: arial;
+    text-align: center;
+    padding-top: 1em;
+    margin-bottom: 2em;
+    }
+.white .highlight{
+    background-color: #800000;
+    color: #fff;
+    padding: 1em 0;
+}
+
+.congress{
+/*    padding-top: 0;*/
+}
+div.white.congress{
+    padding-top: 0;
+}
+
+.blue {background-color: #00004d;
+    border: 5px solid white;
+    color: white;
+    text-align: center;
+    font-family: arial;}
+
+  
+.white * { 
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.blue * {
+  padding: 15px;
+}
 
 
+  #logo {text-align:center;
+          color: #00004d;
+          margin-top: 15px;
+          margin-bottom: 5px;
+          margin-left: auto;
+          margin-right: auto;
+    width: 45%;
+      
+}
 
-
+  footer {
+    text-align: center;
+    padding: 10px;
+  }
 
 
 
